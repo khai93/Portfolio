@@ -89,14 +89,155 @@ body {
 .title {
   color: var(--color-primary-dark);
   text-transform: uppercase;
+  text-align: center;
   font-size: 16px;
 }
 
 .title-divider {
   height: 5px;
-  width: 80%;
+  width: 5.25em;
   margin: 0 auto;
   margin-top: -8px;
   background-color: var(--color-primary-dark);
 }
 
+.project {
+  padding: 10px 2px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 3.5em;
+}
+
+.project-buttons {
+  margin-top: 20px;
+}
+
+.project-image {
+  display: none;
+}
+
+.project-source-link {
+  padding: 4px 10px;
+  min-width: 120px;
+  background-color: #313131;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.project-preview-link {
+  padding: 4px 10px;
+  background-color: #2366CA;
+  color: white;
+  text-decoration: none;
+}
+
+.project-title {
+  font-size: 28px;
+  margin: 0px;
+}
+
+.technology {
+  margin-right: 30px;
+}
+
+.aboutCard {
+  margin: 75px 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  text-align: left;
+  width: 20em;
+}
+
+.contact-form > label {
+  text-align: left;
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-form > input{
+  width: 95%;
+  padding: 4px;
+  font-size: 16px;
+  height: 35px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.contact-form > textarea {
+  width: 95%;
+  min-height: 120px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.contact-form-btn {
+  font-size: 16px;
+  margin: 0;
+  width: 95%;
+  padding: 10px 0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--color-primary);
+}
+
+.footer {
+  background-color: var(--color-primary-dark);
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  height: 2em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0;
+  padding: 0;
+}
+
+@media (min-width:961px) {
+  .project-content {
+    width: 50%;
+  }
+  
+  .project {
+    display: flex;
+    text-align: left;
+    padding: 0 10em;
+    margin: 20px;
+  }
+  
+  .project-image {
+    background-color: darkblue;
+    display: block;
+    width: 45%;
+    height: 21em;
+    margin-right: 3em;
+    
+  }
+  
+  .technology {
+    margin: 0em 0.4em;
+  }
+  
+  .aboutCard {
+    display: inline-block;
+    width: 250px;
+    margin: auto;
+  }
+  
+  .contact-form {
+    width: 30em;
+  }
+}

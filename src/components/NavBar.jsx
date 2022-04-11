@@ -1,6 +1,7 @@
 import React from 'react';
 import Space from "./Space.jsx";
 import useHashLocation from '../hooks/useHashLocation.jsx';
+
 export default () => {
   const location = useHashLocation();
 

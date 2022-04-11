@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Suke",
+    "image": "https://media.discordapp.net/attachments/813546074412941343/892364988289789992/unknown.png?width=515&height=418",
+    "sourceLink": "https://github.com/yeno-team/suke",
+    "previewLink": "https://suke.app",
+    "description": "A web application where users can watch online Videos together from popular sources like Youtube, Dailymotion, Twitch, etc...",
+    "technologies": [
+      "react",
+      "express",
+      "nodejs",
+      "postgres",
+      "redis",
+      "typescript",
+      "aws",
+      "nodemailer"
+    ]
+  },
+  {
+    "name": "Suke: Theater",
+    "image": "https://media.discordapp.net/attachments/813546074412941343/949238929893228574/313d96ac-2d56-4094-b2b9-8f20ebdba534.png?width=840&height=418",
+    "sourceLink": "https://github.com/yeno-team/suke",
+    "previewLink": "https://suke.app/theater",
+    "description": "A feature of Suke where online videos can be watched together on scheduled time like real movie theaters.",
+    "technologies": [
+      "react",
+      "express",
+      "nodejs",
+      "postgres",
+      "redis",
+      "typescript",
+      "aws"
+    ]
+  },
+  {
+    "name": "Emotebox",
+    "image": "",
+    "sourceLink": "https://github.com/khai93/emotebox",
+    "previewLink": "https://emotebox.yeno.dev",
+    "description": "A emoji manager for the popular chat app Discord. Search for an emoji and add it to your server with one click or upload your own for others to use.",
+    "technologies": [
+      "react",
+      "express",
+      "nodejs",
+      "aws"
+    ]
+  }
+]

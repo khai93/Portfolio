@@ -25,6 +25,19 @@
   margin-top: 35px;
 }
 
+.about {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-main {
+  line-height: 28px;
+}
+
+.aboutCards {
+  line-height: 28px;
+}
+
 @media (min-width:961px) {
   .hero-text {
     font-size: 23px;
@@ -32,5 +45,18 @@
   
   .hero-title {
     font-size: 80px;
+  }
+  
+  .about {
+    margin: 10px 13em;
+  }
+  
+  .about-main {
+    padding: 0 100px;
+    margin-bottom: 3.5em;
+  }
+  
+  .aboutCards {
+    display: flex;
   }
 }
